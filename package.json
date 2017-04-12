@@ -1,0 +1,33 @@
+{
+  "name": "zflow",
+  "main": "./lib/zflow",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "zflow:toggle"
+  },
+  "repository": "https://github.com/atom/zflow",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "dependencies": {
+    "evernote": "^2.0.1-beta",
+    "to-markdown": "^3.0.3",
+    "js-yaml": "3.8.3",
+    "marked": "^0.3.6",
+    "trello": "0.7.0",
+    "jquery": "2.2.0",
+    "atom-select-list": "0.0.15",
+    "atom-space-pen-views": "^2.2.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle zflow",
+        "command": "zflow:toggle"
+      },
+      {
+        "label": "send to Trello",
+        "command": "zflow:trello"
+      },
+      {
+        "label": "send to evernote",
+        "command": "zflow:evernote"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "zflow",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "zflow:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
