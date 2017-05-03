@@ -6,8 +6,11 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "zflow:toggle"
+    "atom-workspace": "zflow:backend"
   },
+  "activationHooks": [
+    "language-gfm:grammar-used"
+  ],
   "repository": "https://github.com/atom/zflow",
   "license": "MIT",
   "engines": {

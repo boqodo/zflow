@@ -25,7 +25,7 @@
 - [x] 弹出选择列表，逐级选择trello的board list
 - [x] 发送到trello，创建card，记录该card的url
 - [x] 发送到evernote，创建笔记，记录该笔记的url，将该url记录到card的comment
-- [ ] 自动完成提示，trello的board、list
+- [x] 自动完成提示，trello的board、list
 - [x] 自动完成提示，evernote的notebook、tag
 - [ ] 代码功能重构成分可视化和命令行的方式
 - [ ] trello desc 描述分为简要描述，直接在desc字段中输入，如使用@desc，视为复杂描述，则取yaml头之后的“desc:”的内容；（后续支持正则、段选等方式）
@@ -38,7 +38,7 @@
 
 问题处理：
 
-- [ ] 启动Atom自动加载插件启动
+- [x] 启动Atom自动加载插件启动，配置使用gfm语法后，自动激活
 - [ ] 输入框未获取焦点，列表选择过渡到输入框突兀
 - [ ] 新建模板后，折叠存在问题
 - [ ] Evernote url 文本超长，yaml格式化出现 `>-` 考虑去除
