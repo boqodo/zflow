@@ -6,7 +6,8 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "zflow:backend"
+    "atom-workspace": "zflow:backend",
+    "atom-workspace": "zflow:init"
   },
   "activationHooks": [
     "language-gfm:grammar-used"
