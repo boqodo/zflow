@@ -28,7 +28,7 @@
 - [x] 自动完成提示，trello的board、list
 - [x] 自动完成提示，evernote的notebook、tag
 - [ ] 代码功能重构成分可视化和命令行的方式
-- [ ] trello desc 描述分为简要描述，直接在desc字段中输入，如使用@desc，视为复杂描述，则取yaml头之后的“desc:”的内容；（后续支持正则、段选等方式）
+- [x] trello desc 描述分为简要描述，直接在desc字段中输入，如使用@desc，视为复杂描述，则取yaml头之后的“desc:”的内容；（后续支持正则、段选等方式）
 - [ ] 文件本机存储记录，git集成
 - [ ] GitHub 博客文章生成，github提交集成
 
@@ -40,10 +40,10 @@
 
 - [x] 启动Atom自动加载插件启动，配置使用gfm语法后，自动激活
 - [ ] 输入框未获取焦点，列表选择过渡到输入框突兀
-- [ ] 新建模板后，折叠存在问题
-- [ ] Evernote url 文本超长，yaml格式化出现 `>-` 考虑去除
-- [ ] Evernote笔记显示yaml头格式难看，考虑隐藏仅提取链接，重新组装显示
-- [ ] Evernote笔记显示yaml中的evernote url未设置
+- [x] 新建模板后，折叠存在问题
+- [x] Evernote url 文本超长，yaml格式化出现 `>-` 考虑去除
+- [x] Evernote笔记显示yaml头格式难看，考虑隐藏仅提取链接，重新组装显示
+- [x] Evernote笔记显示yaml中的evernote url未设置
 
 
 [1]: https://evernote.com/ "Evernote"
