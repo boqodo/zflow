@@ -46,6 +46,21 @@
 - [x] Evernote笔记显示yaml中的evernote url未设置
 
 
+## Trello
+
+- ios在印象笔记中通过链接的方式打开，需要使用 url schema 和 x-callback-url
+
+  trello://x-callback-url/showCard?x-source=MyTestApp&id=RCYytboM
+
+- http url链接的方式打开，相对较慢，多一两个操作步骤
+
+## Evernote
+
+- 在trello中，通过http url 的方式，打开较慢
+- 使用evernote:///...的 `In-App Note Url` 的方式,trello 无法直接打开，需要通过其他方式（如：拷贝链接，使用workflow 建个快捷打开）
+
+
+
 [1]: https://evernote.com/ "Evernote"
 [2]: https://www.yinxiang.com/ "印象笔记"
 [3]: https://trello.com/ "trello"
