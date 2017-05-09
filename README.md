@@ -29,8 +29,8 @@
 - [x] 自动完成提示，evernote的notebook、tag
 - [ ] 代码功能重构成分可视化和命令行的方式
 - [x] trello desc 描述分为简要描述，直接在desc字段中输入，如使用@desc，视为复杂描述，则取yaml头之后的“desc:”的内容；（后续支持正则、段选等方式）
-- [ ] 文件本机存储记录，git集成
-- [ ] GitHub 博客文章生成，github提交集成
+- [ ] 文件本机存储记录，git/github提交集成
+- [x] GitHub 博客文章生成
 
 
 可视化方式： 通过弹出选择框等方式逐步选择trello和evernote的方式处理
