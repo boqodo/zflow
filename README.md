@@ -27,7 +27,7 @@
 - [x] 发送到evernote，创建笔记，记录该笔记的url，将该url记录到card的comment
 - [x] 自动完成提示，trello的board、list
 - [x] 自动完成提示，evernote的notebook、tag
-- [ ] 代码功能重构成分可视化和命令行的方式
+- [ ] ~~代码功能重构成分可视化和命令行的方式~~
 - [x] trello desc 描述分为简要描述，直接在desc字段中输入，如使用@desc，视为复杂描述，则取yaml头之后的“desc:”的内容；（后续支持正则、段选等方式）
 - [ ] 文件本机存储记录，git/github提交集成
 - [x] GitHub 博客文章生成
@@ -39,7 +39,7 @@
 问题处理：
 
 - [x] 启动Atom自动加载插件启动，配置使用gfm语法后，自动激活
-- [ ] 输入框未获取焦点，列表选择过渡到输入框突兀
+- [ ] ~~输入框未获取焦点，列表选择过渡到输入框突兀~~
 - [x] 新建模板后，折叠存在问题
 - [x] Evernote url 文本超长，yaml格式化出现 `>-` 考虑去除
 - [x] Evernote笔记显示yaml头格式难看，考虑隐藏仅提取链接，重新组装显示
@@ -59,7 +59,19 @@
 - 在trello中，通过http url 的方式，打开较慢
 - 使用evernote:///...的 `In-App Note Url` 的方式,trello 无法直接打开，需要通过其他方式（如：拷贝链接，使用workflow 建个快捷打开）
 
+## Github
 
+将修改的文件，添加到git仓库，并且push到Github，需要先记录过Github的用户和密码（非ssh方式）；
+
+原本想通过调用命令，触发git plus的命令，不过不可以行，git plus注册的命令都是没有参数的，所以没办法传参数；
+
+```
+$ git config credential.helper store
+$ git push https://github.com/repo.git
+
+Username for 'https://github.com': <USERNAME>
+Password for 'https://USERNAME@github.com': <PASSWORD>
+```
 
 [1]: https://evernote.com/ "Evernote"
 [2]: https://www.yinxiang.com/ "印象笔记"
