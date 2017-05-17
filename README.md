@@ -29,7 +29,7 @@
 - [x] 自动完成提示，evernote的notebook、tag
 - [ ] ~~代码功能重构成分可视化和命令行的方式~~
 - [x] trello desc 描述分为简要描述，直接在desc字段中输入，如使用@desc，视为复杂描述，则取yaml头之后的“desc:”的内容；（后续支持正则、段选等方式）
-- [ ] 文件本机存储记录，git/github提交集成
+- [x] 文件本机存储记录，git/github提交集成
 - [x] GitHub 博客文章生成
 
 
@@ -45,6 +45,13 @@
 - [x] Evernote笔记显示yaml头格式难看，考虑隐藏仅提取链接，重新组装显示
 - [x] Evernote笔记显示yaml中的evernote url未设置
 
+
+改善功能：
+
+- [ ] 使用ssh的方式处理github的push
+- [ ] 报错提示友好提醒
+- [ ] 可视化提示等信息集成功能弱，可参考git plus
+- [ ] 修改commit message的内容
 
 ## Trello
 
