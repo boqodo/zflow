@@ -63,7 +63,7 @@
 
 将修改的文件，添加到git仓库，并且push到Github，需要先记录过Github的用户和密码（非ssh方式）；
 
-原本想通过调用命令，触发git plus的命令，不过不可以行，git plus注册的命令都是没有参数的，所以没办法传参数；
+原本想通过调用命令，触发git plus的命令，不过不行，git plus注册的命令都是没有参数的，所以没办法传参数；
 
 ```
 $ git config credential.helper store
@@ -72,6 +72,12 @@ $ git push https://github.com/repo.git
 Username for 'https://github.com': <USERNAME>
 Password for 'https://USERNAME@github.com': <PASSWORD>
 ```
+
+## git
+
+git的功能实现 参考 [git plus](https://github.com/akonwi/git-plus)
+
+原先使用ssh的方式，url也就是 git@github.com:  不是 https://github.com/ 需要修改一下
 
 [1]: https://evernote.com/ "Evernote"
 [2]: https://www.yinxiang.com/ "印象笔记"
